@@ -613,12 +613,37 @@ video {
   margin-bottom: 80px;
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .mt-\[100px\] {
   margin-top: 100px;
 }
 
 .mt-\[80px\] {
   margin-top: 80px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[-100xp\] {
+  margin-top: -100xp;
+}
+
+.mt-\[-200xp\] {
+  margin-top: -200xp;
+}
+
+.mt-\[-500xp\] {
+  margin-top: -500xp;
 }
 
 .flex {
@@ -645,12 +670,24 @@ video {
   height: 50px;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .h-\[630px\] {
   height: 630px;
 }
 
+.h-\[445px\] {
+  height: 445px;
+}
+
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
 }
 
 .w-\[138px\] {
@@ -692,6 +729,50 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[76\%\] {
+  width: 76%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-\[288px\] {
+  width: 288px;
+}
+
+.w-\[278px\] {
+  width: 278px;
+}
+
+.w-\[268px\] {
+  width: 268px;
+}
+
+.w-\[75px\] {
+  width: 75px;
+}
+
+.w-\[248px\] {
+  width: 248px;
+}
+
+.w-\[258px\] {
+  width: 258px;
+}
+
+.w-\[28px\] {
+  width: 28px;
 }
 
 .shrink {
@@ -736,6 +817,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -754,18 +839,6 @@ video {
 
 .gap-\[40px\] {
   gap: 40px;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[50px\] {
-  gap: 50px;
 }
 
 .gap-\[60px\] {
@@ -834,6 +907,22 @@ video {
   padding-left: 20px;
 }
 
+.pl-\[\] {
+  padding-left: ;
+}
+
+.pl-\[200px\] {
+  padding-left: 200px;
+}
+
+.pl-\[100px\] {
+  padding-left: 100px;
+}
+
+.pl-\[80px\] {
+  padding-left: 80px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -858,6 +947,18 @@ video {
   font-size: 60px;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.text-\[41px\] {
+  font-size: 41px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -874,13 +975,13 @@ video {
   color: rgba(205,180,148,1);
 }
 
+.text-\[rgba\(255\2c 255\2c 255\2c 1\)\] {
+  color: rgba(255,255,255,1);
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[rgba\(255\2c 255\2c 255\2c 1\)\] {
-  color: rgba(255,255,255,1);
 }
 
 .underline {
